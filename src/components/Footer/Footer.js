@@ -15,17 +15,53 @@ import "./Footer.css";
 class Footer extends Component {
   render() {
     return (
-      <div className="footDivOut">
-        <div className="footDivIn">
-          <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-          ></link>
-          <Container>
-            <p>Footer</p>
-          </Container>
-        </div>
-      </div>
+      <Container className="rootFoterContainer">
+
+        <Row className="footerRow">
+          <Col>
+            <Row><h5>Contact Us</h5></Row>
+            <Row>
+              <p className="addressText">
+                Address line 1,< br />
+                City, Province< br />
+                Postal Code
+              </p>
+              <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir///@49.1422828,-122.8954575,11.7z/data=!4m2!4m1!3e0">
+                <Button className="directionsButton" variant="outline-light">Directions</Button>
+              </a>
+            </Row>
+          </Col >
+
+          <Col>
+            <Row><h5>Information</h5></Row>
+            <Row>
+              <a className="noDesignLink" href="/contact">Contact Us</a>
+            </Row>
+            <Row>
+              <a className="noDesignLink" href="/#shipping">Shipping Info</a>
+            </Row>
+            <Row>
+              <a className="noDesignLink" href="/#about">About Us</a>
+            </Row>
+          </Col>
+
+          <Col>
+            <Row><h5>Business Hours</h5></Row>
+            <Row>
+              <p>
+                Monday - Friday: 8am to 7:30pm< br />
+                Saturday: 10am to 5pm< br />
+                Sunday: Closed
+              </p>
+            </Row>
+          </Col>
+        </Row>
+
+        <Row className="copyrightRow">
+          <p>&#169; 2023 Company Name</p>
+        </Row>
+
+      </Container >
     );
   }
 }
