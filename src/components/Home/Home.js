@@ -1,4 +1,5 @@
-import React, { Component, useState, useRef } from "react";
+// import React, { Component, useState, useRef } from "react";
+import React from "react";
 import "./Home.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,7 +8,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Image from "react-bootstrap/Image";
-import { InputGroup } from "react-bootstrap";
+// import { InputGroup } from "react-bootstrap";
 import HomeImage from "../../assets/images/homepage.jpg";
 
 function Home() {
@@ -18,7 +19,7 @@ function Home() {
       <Container className="homepageImageContainer">
         <Image src={HomeImage} className="homepageImage"></Image>
 
-        <h1 className="homepageImageTitle">Exceptional parts that keep the journey going.</h1>
+        <h1 className="homepageImageTitle">Exceptional service that keep the journey going.</h1>
 
 
         <Container className="omnisearchContainer">

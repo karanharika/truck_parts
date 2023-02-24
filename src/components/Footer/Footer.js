@@ -26,7 +26,7 @@ class Footer extends Component {
                 City, Province< br />
                 Postal Code
               </p>
-              <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir///@49.1422828,-122.8954575,11.7z/data=!4m2!4m1!3e0">
+              <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir//TORQUE+TECH+TRUCK+%26+TRAILER+REPAIR+LTD.,+7583+Vantage+Pl,+Delta,+BC+V4G+1A5/@49.1402581,-123.0086857,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x5485df4ffabd1903:0xdf482484e7c47dfe!2m2!1d-123.0086857!2d49.1402581!3e0">
                 <Button className="directionsButton" variant="outline-light">Directions</Button>
               </a>
             </Row>
@@ -49,8 +49,8 @@ class Footer extends Component {
             <Row><h5>Business Hours</h5></Row>
             <Row>
               <p>
-                Monday - Friday: 8am to 7:30pm< br />
-                Saturday: 10am to 5pm< br />
+                Monday - Friday: 9am to 8pm< br />
+                Saturday: 9am to 4pm< br />
                 Sunday: Closed
               </p>
             </Row>
@@ -58,7 +58,7 @@ class Footer extends Component {
         </Row>
 
         <Row className="copyrightRow">
-          <p>&#169; 2023 Company Name</p>
+          <p>&#169; 2023 TORQUE TECH TRUCK & TRAILER REPAIR LTD.</p>
         </Row>
 
       </Container >

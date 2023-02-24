@@ -1,13 +1,17 @@
+import "./Navigation.css"
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+// import { Image } from "react-bootstrap";
+// import HomeLogo from "../../assets/logos/homeLogo.png";
 
 function Navigation() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/">Company Name</Navbar.Brand>
+        <Navbar.Brand className="logoHome" href="/">Torque Tech Truck & Trailer Repair</Navbar.Brand>
+        {/* <Navbar.Brand href="/"><Image className="logoHome" src={HomeLogo}></Image></Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
