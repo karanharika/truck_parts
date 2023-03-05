@@ -9,7 +9,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import Image from "react-bootstrap/Image";
+// import Image from "react-bootstrap/Image";
 import "./Footer.css";
 
 class Footer extends Component {
@@ -22,9 +22,9 @@ class Footer extends Component {
             <Row><h5>Contact Us</h5></Row>
             <Row>
               <p className="addressText">
-                Address line 1,< br />
-                City, Province< br />
-                Postal Code
+                7583 Vantage Pl, < br />
+                Delta, BC < br />
+                V4G 1A5
               </p>
               <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir//TORQUE+TECH+TRUCK+%26+TRAILER+REPAIR+LTD.,+7583+Vantage+Pl,+Delta,+BC+V4G+1A5/@49.1402581,-123.0086857,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x5485df4ffabd1903:0xdf482484e7c47dfe!2m2!1d-123.0086857!2d49.1402581!3e0">
                 <Button className="directionsButton" variant="outline-light">Directions</Button>
@@ -42,6 +42,9 @@ class Footer extends Component {
             </Row>
             <Row>
               <a className="noDesignLink" href="/#about">About Us</a>
+            </Row>
+            <Row>
+              <a className="noDesignLink" href="tel:+16044981462">Call: +1 (604) 498-1462</a>
             </Row>
           </Col>
 
