@@ -1,4 +1,4 @@
-import "./Navigation.css"
+import "./Navigation.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -11,11 +11,13 @@ function Navigation() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         {/* <Navbar.Brand className="logoHome" href="/">Torque Tech Truck & Trailer Repair</Navbar.Brand> */}
-        <Navbar.Brand href="/"><Image className="logoHome" src={HomeLogo}></Image></Navbar.Brand>
+        <Navbar.Brand href="/">
+          <Image className="logoHome" src={HomeLogo}></Image>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#parts">Part Finder</Nav.Link>
+            <Nav.Link href="/partfinder">Part Finder</Nav.Link>
             <Nav.Link href="#shipping">Shipping</Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Service</NavDropdown.Item>

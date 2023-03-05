@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import PartFinder from "./components/PartFinder/PartFinder";
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
 
         <Routes>
           <Route path="/" element={<Home />} />
-
+          <Route path="/partfinder" element={<PartFinder />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
